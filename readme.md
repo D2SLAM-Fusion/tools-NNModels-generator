@@ -1,4 +1,14 @@
+## SuperPoint_AND_NetVLAD
+### requirement
+1. tensorrt /usr/src/tensorrt/bin/trtexec 
+
+## HITNET Generator
+
 This repo can transfer HINET.pb trained under ETH3d dataset to ONNX model with different input size and float size
+
+### Requirement
+1. openvino2tensorflow 
+2. tensorflow_datasets (pip install )
 
 run `save_model_to_onnx.sh` directly and modify H W C value to get ONNX models
 
